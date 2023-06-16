@@ -1,0 +1,250 @@
+/* GOOGLE FONTS */
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600;700&family=Dancing+Script:wght@500&family=Quicksand:wght@300;400&display=swap');
+
+/* VARIABLE CSS */
+:root {
+    /* COLOR */
+    --trang: #FFFFFF;
+    --xamnhat: #E3E3E3;
+    --hong: #FFBABA;
+    --xanhdam: #0E1D31;
+    --navy: #27374D;
+    --xanhden: #171717;
+    --xamdam: #707070;
+    --do: #FF0000;
+    --longcong: #526D82;
+    --xanhmint: #9DB2BF;
+    --xanhnhat: #DDE6ED;
+    --trang2: #FCFCFC;
+    /* FONT AND TYPOGRAPHY */
+    --body-font: 'Be Vietnam Pro',sans-serif;
+    --h1-font-size: 96px;
+    --h2-font-size: 60px;
+    --h3-font-size: 48px;
+    --h4-font-size: 34px;
+    --h5-font-size: 24px;
+    --h6-font-size: 20px;
+    --sub1-font-size: 16px;
+    --sub2-font-size: 14px;
+    --body1-font-size: 16px;
+    --body2-font-size: 14px;
+    --button-font-size: 14x;
+    --caption-font-size: 12px;
+    --overline-font-size: 10px;
+    /* FONT WEIGHT  */
+    --font-normal: 400;
+    --font-medium: 500;
+    --font-semibold: 600;
+    --font-bold: 700; 
+    /* Z-INDEX */
+    --z-tooltip: 10;
+    --z-fixed: 100;
+    --z-modal: 1000;
+}
+/* BASE  */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--trang);
+    list-style: none;
+    text-decoration: none;
+
+}
+html {
+    scroll-behavior: smooth;
+}
+
+
+body {
+    background-color: var(--xanhdam);
+    padding: 0;
+}
+.header {
+    width: 100%;
+    height: 100px;
+    background-color:var(--navy) ;
+}
+.thanh1 {
+    width: 100%;
+    height: 173px;
+    background-color: var(--navy);
+    margin-top: 125px;
+}
+.quangcao {
+    width: 1088px;
+    height: 499px;
+    margin-top: 299px;
+}
+.anhto {
+    width: 882px;
+    height: 423px;
+    background-color: var(--trang);
+}
+.anhnho {
+    width: 184px;
+    height: 127px;
+    background-color: var(--trang);
+    
+}
+    
+/* name-game */
+a {
+    text-decoration: none;
+}
+.elden {
+    padding: 24px 0px 50px 0px;
+    font-size: var(--h4-font-size);
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    
+}
+.back {
+    padding-left: 10px;
+    margin: 0;
+}
+/* <!-- end off name-game --> */
+/* elden-ring */
+.elden-ring {
+    padding: 24px 0px 50px 0px;
+}
+.img-quangcao {
+    width: 546px;
+}
+.img-con1 {
+    width: 90px;
+    height: 75px;
+    margin-right: 19px;
+    
+}
+.img-con2 {
+    width: 91px;
+    height: 75px;
+    overflow: hidden;
+}
+.img-con {
+    padding: 24px 0px 0px 0px;
+    position: relative;
+    align-items: center;
+    overflow: hidden;
+    margin: 0px;
+}
+
+.ok-game {
+    padding-left: 0px;
+}
+.name-game-acc {
+    font-size: var(--h3-font-size);
+    font-weight: bold;
+}
+.nd {
+    font-size: var(--h6-font-size);
+    font-weight: light;
+}   
+.date {
+    font-size: var(--sub1-font-size);
+    font-weight: var(--font-medium);
+    margin: 0;
+}
+.button-enabled1 {
+    padding: 8px 32px;
+    border-radius: 4px;
+    background: var(--navy);
+    list-style: none;
+    border: none ;
+    margin-right: 15px;
+    margin-top: 16px;
+}
+.gia {
+    font-size: var(--h5-font-size);
+    margin-top: 16px;
+}
+.mua-ban1 {
+    padding: 16px 36px;
+    background: var(--navy);
+    list-style: none;
+    border: none ;
+    font-size: var(--body2-font-size);
+    font-weight: var(--font-medium);
+    border-radius: 4px;
+    margin-right: 54px;
+}   
+.mua-ban2 {
+    padding: 16px 36px;
+    background: var(--navy);
+    list-style: none;
+    border: none ;
+    font-size: var(--body2-font-size);
+    font-weight: var(--font-medium);
+    border-radius: 4px;
+}   
+.mua-ban {
+    padding-top: 15px;
+}
+/* end off elden-ring */
+/* about this game */
+.about-this-game {
+    padding: 24px 0px 50px;
+}
+/* end off about this game */
+/* system-requirements */
+.system-requirements {
+    padding: 24px 0px 50px;
+}
+/* end off system-requirements */
+/* reviews */
+.reviews {
+    padding: 24px 0px 50px;
+}
+.total {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+.so-luong {
+    margin: 0;
+    padding-right: 10px;
+}
+.review1 {
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+/* end off reviews */
+@media only screen and (max-width: 550px) {
+	.img-quangcao {
+        width: 320px;
+    }
+    .img-con1 {
+        margin-top: 19px;
+    }
+    .img-con2 {
+        margin-top: 19px;
+    }
+    .name-game-acc {
+        font-size: var(--h5-font-size);
+    }
+    .nd {
+        width: 320px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .mua-ban1 {
+        margin-right: 20px;
+    }
+}
+@media only screen and (max-width: 320px) {
+	.img-quangcao {
+        width: 300px;
+    }
+    .mua-ban1 {
+        margin-bottom: 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .ok-game {
+        padding: 0px 16px 0px 16px;
+    }
+}
